@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+
+{% load static %}
+
+{% block content%}
+
+<div class="card mb-3">
+    <h3 class="card-header">About Me</h3>
+    <div class="card-body">
+      <h5 class="card-title">Mr.Javon </h5>
+      <h6 class="card-subtitle text-muted">Python Django Consultant</h6>
+    </div>
+    <img style="height: 200px; width: 100%; display: block;" src="{% static 'img/profile.jpg'%}" alt="Card image">
+    <div class="card-body">
+      <p class="card-text">Senior web developer and software engineer</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">I am an experienced software developer with a degree in engineering/telecommunications. Over the course of my career, I have built everything from web-based strategy games to stock market analysis tools and smart electrical wiring systems.</li>
+      <li class="list-group-item">I excel as a full-stack developer, product manager or consultant. My main tech focus in recent years has been PHP/Laravel, with a keen interest in Python and Node.js. In addition, I have expert knowledge in MySQL and excellent knowledge in Javascript and various front-end frameworks. I have extensive experience with various APIs and online payment solutions.</li>
+      <li class="list-group-item">I develop scalable, secure, object-oriented web applications, with a focus on efficient algorithm usage and optimal database structure</li>
+    </ul>
+
+  </div>
+
+{% endblock%}
